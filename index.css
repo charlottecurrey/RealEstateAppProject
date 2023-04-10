@@ -10,8 +10,18 @@ ul {
   justify-content: space-between;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:blue;
+  text-decoration: underline;
+}
 #tabs {
   float: right;
+  padding-right: 1vw;
 }
 
 li {
@@ -19,7 +29,9 @@ li {
 }
 
 #textbox {
-  width: 20vw;
+  background-color: lightgray;
+  border-radius: 10px;
+  width: 50vw;
   height: 3vw;
 }
 
@@ -33,4 +45,25 @@ li {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
+  
+}
+
+.houses {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#house1, #house2, #house3, #house4, #house5{
+  width: 35vw;
+  border-radius: 25px;
+}
+#house-1, #house-2, #house-3, #house-4, #house-5{
+  border: 1px solid;
+  border-radius: 25px;
+  text-align: center;
+  margin-top:2vw;
 }
