@@ -9,3 +9,4 @@ class Listing {
     this.squarefootage = props.squarefootage;
   }
 }
+
