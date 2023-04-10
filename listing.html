@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List your Home</title>
+    <link rel="stylesheet" href="index.css" />
+    <h1>Real-Estate App</h1>
+  </head>
+  <body>
+    <div id="tabs">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Buy</a></li>
+        <li><a href="">Sell</a></li>
+        <li><a href="">Rent</a></li>
+        <li><a href="listing.html">List Your Home</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <br />
+    <form id="user-inputs">
+      <input type="text" id="type" placeholder="Type of Home" /><br />
+      <input type="number" id="price" placeholder="Price" /><br />
+      <input type="text" id="state" placeholder="State" /><br />
+      <input type="text" id="address" placeholder="Address" /><br />
+      <input type="text" id="bedrooms" placeholder="# of Bedrooms" /><br />
+      <input type="text" id="bathrooms" placeholder="# of Bathrooms" /><br />
+      <input type="text" id="square-footage" placeholder="Square Footage" />
+      <button id="submit">Submit</button>
+    </form>
+    <div id="listings"></div>
+    <script src="index.js"></script>
+    <script src="listing.js"></script>
+  </body>
+</html>
