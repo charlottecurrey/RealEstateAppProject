@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+#tabs {
+  float: right;
+}
+
+li {
+  margin-left: 2vw;
+}
+
+#textbox {
+  width: 20vw;
+  height: 3vw;
+}
+
+#Welcome {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw;
+}
+
+#search-input {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
